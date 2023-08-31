@@ -1,0 +1,120 @@
+:root {
+    --skill-color: black;
+    --light-color: rgb(195, 182, 182);
+    --blue-color: #3391FF;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h2{
+    color: #3391FF;
+    padding-bottom: 42px;
+}
+.light .skills h2{
+    color: #3391FF;
+}
+.skill_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 702px;
+}
+
+.skill_list div {
+    margin-right: 67px;
+    margin-bottom: 47px;
+    min-height: 98px;
+    width: 98px;
+    background-color: #212026;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: rgb(10, 10, 14) 9px 8px 9px 0px;
+}
+.skill_list div:hover{
+    box-shadow: var(--skill-color) 1px 3px 3px 2px;
+}
+
+.skill_list p {
+    color: var(--skill-color);
+    font-weight: 600;
+    margin-bottom: -2px;
+}
+
+.skill_list div svg {
+    min-height: calc(90px - 30px);
+    width: calc(90px - 30px);
+    color: var(--skill-color);
+    transition: all 3ms ease-in-out;
+    margin-bottom: -5px;
+}
+
+
+.light .skill_list svg,.light .skill_list p {
+    color: var(--light-color);
+    transition: all 0.1s;
+}
+.js:hover {
+    --skill-color: #fddd00;
+    --light-color:  #fddd00;
+}
+
+
+.html:hover {
+    --skill-color: #f1662a;
+    --light-color: #f1662a;
+}
+
+.css:hover,
+.ts:hover {
+    --skill-color: #1572b6;
+    --light-color: #1572b6;
+}
+
+.react:hover {
+    --skill-color: #00d8ff;
+    --light-color: #00d8ff;
+}
+
+.node:hover {
+    --skill-color: #539e43;
+    --light-color: #539e43;
+}
+
+.fig:hover {
+    --skill-color: #a259ff;
+    --light-color: #a259ff;
+}
+
+.mon:hover {
+    --skill-color: #41a247;
+    --light-color: #41a247;
+}
+.ap:hover {
+    --skill-color: #2b55d4;
+    --light-color: #2b55d4;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .skills{
+    width: 400px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+    .skills {
+            width: 280px;
+        }
+}
+
+@media only screen and (max-width: 350px) {
+    .skills {
+            width: 300px;
+        }
+}

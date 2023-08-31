@@ -1,0 +1,19 @@
+.know {
+    padding-bottom: 183px;
+    padding-top: 140px;
+    color: aliceblue;
+}
+.box{
+    width: fit-content;
+    margin-left: 138px;
+    margin-right: 111px;
+}
+
+.know .about_text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.about_text {
+    margin-top: 0px;
+}

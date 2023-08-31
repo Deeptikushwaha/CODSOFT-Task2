@@ -1,0 +1,28 @@
+.intro {
+    background-color: #1c1a2a/*#303c66*/;
+    color: #3391FF;
+    height: 451px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    padding-bottom: 10px;
+
+}
+.intro-box {
+    margin: 183px 0px 0px 138px;
+    height: auto;
+}
+.name p {
+    font-size: 60.36px;
+}
+.name text {
+    font-size: 41px;
+    color: white;
+}
+.buttons{
+    margin-top: 8px;
+    display: flex;
+}
+@media screen {
+    
+}

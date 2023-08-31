@@ -1,0 +1,17 @@
+.primary_btn {
+    padding: 18px 10px;
+    background: linear-gradient(172deg,/*#3391FF*/#2570c8,#2115a0/*#3729cb*/); 
+    border-radius: 15.36px;
+    border: none;
+    margin: 9px 23px 0px 0px;
+    color: white;
+    place-items: center;
+    font-weight: 300;
+    min-width: 120px;
+    gap: 8px;
+    font-size: 16px;
+    justify-content: center;
+    box-shadow: rgb(17 15 30) 14px 12px 12px 0px;
+    cursor: pointer;
+}
+
