@@ -1,2 +1,0 @@
-# CODSOFT-Task2
-#PORTFOLIO
