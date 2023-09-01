@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CODSOFT-Task2/static/css/main.77306b1b.css",
-    "main.js": "/CODSOFT-Task2/static/js/main.87c48c1b.js",
+    "main.js": "/CODSOFT-Task2/static/js/main.605304de.js",
     "static/js/787.1ed0c42c.chunk.js": "/CODSOFT-Task2/static/js/787.1ed0c42c.chunk.js",
     "index.html": "/CODSOFT-Task2/index.html",
     "main.77306b1b.css.map": "/CODSOFT-Task2/static/css/main.77306b1b.css.map",
-    "main.87c48c1b.js.map": "/CODSOFT-Task2/static/js/main.87c48c1b.js.map",
+    "main.605304de.js.map": "/CODSOFT-Task2/static/js/main.605304de.js.map",
     "787.1ed0c42c.chunk.js.map": "/CODSOFT-Task2/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77306b1b.css",
-    "static/js/main.87c48c1b.js"
+    "static/js/main.605304de.js"
   ]
 }
