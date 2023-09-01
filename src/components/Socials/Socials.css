@@ -12,7 +12,12 @@
  .socials h2{
     margin-left: 132px;
  }
- .social{
+ p {
+     font-weight: 600;
+     margin-bottom: -2px;
+     color: white;
+ }
+.social{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,16 +28,9 @@
 
     
  }
- 
- p{  
-            font-weight: 600;
-            margin-bottom: -2px;
-    color: white;
+ .social a {
+     padding: 87px 0;
  }
- .social a{
-    padding: 87px 0;
- }
-
  .social div {
      display: flex;
      flex-direction: column;
@@ -84,7 +82,7 @@
  }
 
  .git a {
-     color: black !important;
+     color: black;
  }
 
  .twit {
